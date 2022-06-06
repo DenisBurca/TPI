@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+ <body>
+	<script>
+	function nrVocale(str) 
+	{ 
+
+   	const count = str.match(/[aeiou]/gi).length;
+
+   	return count;
+
+	}
+	
+	const string = prompt('Scrieti un text: ');
+
+	const rez = nrVocale(string);
+	
+	alert(rez);
+	</script>
+
+ </body>
+
+</html>
